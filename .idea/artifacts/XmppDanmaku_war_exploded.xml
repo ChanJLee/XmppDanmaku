@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="XmppDanmaku:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/XmppDanmaku_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="XmppDanmaku/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="XmppDanmaku" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
