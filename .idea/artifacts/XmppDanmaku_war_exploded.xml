@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="XmppDanmaku" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="smack-java7-4.1.9" />
+          <element id="library" level="project" name="smack-core-4.1.9" />
+          <element id="library" level="project" name="smack-tcp-4.1.9" />
+        </element>
       </element>
     </root>
   </artifact>

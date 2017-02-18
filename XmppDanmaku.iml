@@ -19,5 +19,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="smack-java7-4.1.9" level="project" />
+    <orderEntry type="library" name="smack-core-4.1.9" level="project" />
+    <orderEntry type="library" name="smack-tcp-4.1.9" level="project" />
   </component>
 </module>
