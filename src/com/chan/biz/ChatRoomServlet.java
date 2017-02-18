@@ -1,8 +1,8 @@
 package com.chan.biz;
 
-import com.chan.xmpp.XmppHelper;
-import org.jivesoftware.smack.AbstractXMPPConnection;
-import org.jivesoftware.smack.SmackException;
+import org.jivesoftware.smack.AccountManager;
+import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 
 import javax.servlet.ServletException;
@@ -21,14 +21,12 @@ public class ChatRoomServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ConnectionConfiguration connectionConfiguration = new ConnectionConfiguration("192.168.1.101", 5222);
+        XMPPConnection xmppConnection = new XMPPConnection(connectionConfiguration);
         try {
-            AbstractXMPPConnection connection = XmppHelper.getXMPPConnection();
-            connection.connect();
-            connection.login("x", "1234");
-            System.out.println(connection.isConnected() + "haha");
-        } catch (XMPPException e) {
-            e.printStackTrace();
-        } catch (SmackException e) {
+            xmppConnection.connect();
+            xmppConnection.login("servlet", "1234", "192.168.1.101");
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

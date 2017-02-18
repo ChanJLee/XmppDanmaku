@@ -8,15 +8,9 @@
           <element id="module-output" name="XmppDanmaku" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="smack-java7-4.1.9" />
-          <element id="library" level="project" name="smack-core-4.1.9" />
-          <element id="library" level="project" name="smack-tcp-4.1.9" />
-          <element id="library" level="project" name="xpp3-1.1.4" />
-          <element id="library" level="project" name="jxmpp-util-cache-0.4.2" />
           <element id="library" level="project" name="libs" />
-          <element id="library" level="project" name="jxmpp-jid-0.4.2" />
-          <element id="library" level="project" name="jxmpp-core-0.4.2" />
-          <element id="library" level="project" name="jxmpp-stringprep-libidn-0.4.2" />
+          <element id="library" level="project" name="xmpp" />
+          <element id="library" level="project" name="xpp3-1.1.4" />
         </element>
       </element>
     </root>

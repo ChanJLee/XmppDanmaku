@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="jxmpp-util-cache-0.4.2">
+  <library name="xmpp">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/jxmpp-util-cache-0.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/xmpp.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
