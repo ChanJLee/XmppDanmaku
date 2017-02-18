@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jxmpp-stringprep-libidn-0.4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jxmpp-stringprep-libidn-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
