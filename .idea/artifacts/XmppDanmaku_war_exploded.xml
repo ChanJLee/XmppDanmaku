@@ -9,8 +9,6 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="libs" />
-          <element id="library" level="project" name="xmpp" />
-          <element id="library" level="project" name="xpp3-1.1.4" />
         </element>
       </element>
     </root>
