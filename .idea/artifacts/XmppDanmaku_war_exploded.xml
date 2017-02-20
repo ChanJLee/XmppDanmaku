@@ -9,6 +9,10 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="libs" />
+          <element id="library" level="project" name="smack" />
+          <element id="library" level="project" name="smackx-jingle" />
+          <element id="library" level="project" name="smackx" />
+          <element id="library" level="project" name="commons-lang-2.6" />
         </element>
       </element>
     </root>
