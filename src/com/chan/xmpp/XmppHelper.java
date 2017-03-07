@@ -17,7 +17,8 @@ import java.util.Iterator;
  */
 public class XmppHelper {
     public static final int XMPP_PORT = 5222;
-    public static final String XMPP_DOMAIN = "192.168.1.101";
+    //public static final String XMPP_DOMAIN = "192.168.1.101";
+    public static final String XMPP_DOMAIN = "10.21.7.57";
     public static final String XMPP_CHAT_ROOM_ID = "conference.192.168.1.101";
 
     private static volatile XMPPConnection sXmppConnection;
