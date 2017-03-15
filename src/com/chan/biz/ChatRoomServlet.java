@@ -53,7 +53,7 @@ public class ChatRoomServlet extends HttpServlet {
             if (StringUtils.isBlank(id)) {
                 id = "";
             }
-
+            XmppHelper.foo();
             ServletOutputStream outputStream = resp.getOutputStream();
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
             BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
